@@ -20,7 +20,7 @@ I applied the same concept to names.
 ## ⚙️ How It Works
 
 1. **Phonetic Encoding**  
-   Names are converted into a normalized sound signature using a custom mapping across multiple alphabets (Latin, Cyrillic, Armenian, etc.).
+   Names are converted into a normalized sound signature using a custom mapping across multiple alphabets (Latin, Cyrillic, Armenian).
 
 2. **Vector Generation**  
    For each adjacent phoneme pair, a specific index in the vector is incremented. This results in a unique “sound vector” for each name.
@@ -40,6 +40,6 @@ I applied the same concept to names.
 ## 📦 Technologies Used
 
 - C++
-- AVX / AVX2 / AVX512 SIMD
+- AVX2
 - Multithreading
 - Custom phonetic mapping logic
