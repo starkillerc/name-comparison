@@ -40,6 +40,6 @@ I applied the same concept to names.
 ## 📦 Technologies Used
 
 - C++
-- AVX2
+- AVX
 - Multithreading
 - Custom phonetic mapping logic
